@@ -1,0 +1,25 @@
+Clase 1, 2
+1- W0, en el excel. Tenes un peso menos para ajustar.
+2- Ordenados tarda más (por qué?)
+3- Escalados tarda menos ()
+4- Batch = row?
+5- Stochastic gradient descet = Batchsize = sample, actualiza por cada row los pesos.
+6- Que caracteristicas tiene que tener un dataset para un perceptron simple y un adelaine?
+	a- Linealmente separables
+	b- Solamente
+7-Encuentra una diferencia entre entrenar una neurona logsig y tansig. Tansig suele ser más rápido.
+8- Puedo usar una lineal como funcion de activación, pero la salida y tiene que conicidir ocn la función de activación.
+PURELIN. (ver video de la clase)
+8-DIFERENCIA con Perceptron vs Adelaine, 
+El punto medio no debería cambiar.
+¿podria dar algo totalmente distinto? los resultados siempre tienden a un valor
+¿Si tiene una distribución rara? Podría dar otro resultado.
+Es muy dificil que con una neurona diera otro resultado.
+La superficie del error es una especie de paraboloide es fácil encontrar el minimo
+Antes encontraba muchas recta en cambio adelaine siempre converge a lo mismo porque encuentra la recta minimiza.
+Datasets mas complejos puede tener otro valor porque puede quedar en un Minimo local
+9- El orden de las clases condiciona solo la lentitud pero no cambia el resultado.
+10- Podría usar una pureline, pero puede no converger o tardar muchisimo en converger.
+3)Clase 3 - backpropagation
+11-Tendremos cantidad de neuronas de entrada cómo cantidad de variables que tenga nuestro dataset
+12- La capa de salida (al igual que la intermedia) tien un valor B

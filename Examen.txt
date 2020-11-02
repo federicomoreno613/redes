@@ -20,6 +20,46 @@ Antes encontraba muchas recta en cambio adelaine siempre converge a lo mismo por
 Datasets mas complejos puede tener otro valor porque puede quedar en un Minimo local
 9- El orden de las clases condiciona solo la lentitud pero no cambia el resultado.
 10- Podría usar una pureline, pero puede no converger o tardar muchisimo en converger.
-3)Clase 3 - backpropagation
+
+
+
+	3)Clase 3 - backpropagation
+Problemas no linealmente separable
 11-Tendremos cantidad de neuronas de entrada cómo cantidad de variables que tenga nuestro dataset
 12- La capa de salida (al igual que la intermedia) tien un valor B
+13- En un red feed foward donde tengo 4 clases podría entrenar una sola neurona con intervalos pero sería muy costoso.
+14- Con 4 clases me alcanza con 2 neuronas porque con 1 y 0 puedo solucionarlo.
+Si tengo 5 clases, 2 no me alcanza, si uso 3 hay una clase (seria la 6ta) que está indefinida.
+Lo optimo es usar 5 neuronas con 5 clases, sólo se encienda la neurona con una clase.
+https://www.youtube.com/watch?v=Ilg3gGewQ5U&ab_channel=3Blue1Brown
+Aplicar un vector de entrada y calcular su salida.
+ Calcular el error.
+ Calcular el gradiente.
+ Corregir los pesos de las conexiones.
+ Repetir los pasos anteriores para todos los
+patrones hasta reducir el error a un valor
+aceptable.
+
+ La capacidad de generalización de la red está
+relacionada con la cantidad de neuronas de la capa
+oculta.
+
+ El descenso por la técnica del gradiente tiene el
+problema de caer en un mínimo local.
+
+Las 4 neuronas intermedias son un espacio de 4 dimensiones.
+Mis 5 de salida trazo una recta en el interplano donde solo una se desprende y representa una clase.
+La ultima capa recibe todas las rectas y solo se prende con una combinacion determinada = combinacion lineal de la otra capa.
+15- la salida nunca da 0 o 1, da 0.02 o 0.09, redondeamos. Aunque nunca en el entrenamiento usamos el error. Pero una vez finalizado el entrenamiento
+si redondeamos la salida para poder determinar la clase.
+16- Que pasa si no representa ninguna clase? 
+	* a- Dato anomalo. Puede ser una respuesta coherente, puede no teneer nada que ver con los ejemplkos presentados
+	* b- El entrenamiento fue insuficiente (muchas capas o pocas)
+17- Quiero que cada neurona aprenda a ubicarse en un punto del espacio y separe un sector con una clase
+18- quiero construir mi superficie del error. con muchas variables esta repleta de minimos. 
+Puedo hacer lo mismo que el adaline. Cada neurona tiene sus pesos de entradas y sus pesos de salida.
+Puedo tener 15 W, entonces tengo que buscar un minimo en 15 dimensiones.
+Me paro en un punto en cada valor W que estaban al momento del ejemplo, calculare el error e iré en su dirección contraria.
+Tambien se buscará el delta generalizado. Backpropagation = algoritmo de delta generalizada.
+* Backpropagation en Capa intermedia: Por lo que ocurre en cada capa intermedia en la red.
+* Backpropagation en Capa de Salida.

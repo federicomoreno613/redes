@@ -1,0 +1,24 @@
+1- 8 de inputs
+Capa oculta tiene 8 pesos + w0, cómo son 15, queda 15*9.
+
+1er Capa:
+Entonces la formula generica es (Cantidad de entradas-inputs +1) * cantidad de salidas
+
+2da capa:
+Entradas = salida de la segunda capa.
+(15+1)*8
+
+3era Capa salida:
+(8+1)*5
+
+Activa o no el valor
+
+Dimensionalidad Entrada = 0
+1er Oculta = 145
+2da Oculta = 
+ 
+La dimensionalidad del error: Pesos totales+1
+
+2- Cuanto va a recibir la capa de salida:
+
+Las pelotitas quedan ubicadas sobre ese espacio.

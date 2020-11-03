@@ -63,3 +63,4 @@ Me paro en un punto en cada valor W que estaban al momento del ejemplo, calcular
 Tambien se buscará el delta generalizado. Backpropagation = algoritmo de delta generalizada.
 * Backpropagation en Capa intermedia: Por lo que ocurre en cada capa intermedia en la red.
 * Backpropagation en Capa de Salida.
+

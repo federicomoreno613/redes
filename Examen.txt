@@ -1,12 +1,21 @@
 Clase 1, 2
+
 1- W0, en el excel. Tenes un peso menos para ajustar.
 2- Ordenados tarda más (por qué?)
+¿Por qué?
 3- Escalados tarda menos ()
-4- Batch = row?
-5- Stochastic gradient descet = Batchsize = sample, actualiza por cada row los pesos.
-6- Que caracteristicas tiene que tener un dataset para un perceptron simple y un adelaine?
-	a- Linealmente separables
-	b- Solamente
+
+
+4- Batch = row
+5- Stochastic gradient descent = Batchsize = sample, actualiza por cada row los pesos.
+6- Que caracteristicas tiene que tener un dataset para un perceptron simple y un adelaine? (3C)
+	a- Linealmente separables (clasificación)
+	b- Solamente: tiene que ser
+
+Un adeline encuentra una sola recta equidistante en cambio el perceptron puede encontrar infinitas.
+El perceptron busca la primera linea que el error le da cero
+
+
 7-Encuentra una diferencia entre entrenar una neurona logsig y tansig. Tansig suele ser más rápido.
 8- Puedo usar una lineal como funcion de activación, pero la salida y tiene que conicidir ocn la función de activación.
 PURELIN. (ver video de la clase)

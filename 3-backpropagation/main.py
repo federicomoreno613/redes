@@ -6,12 +6,12 @@ Created on Fri Aug 18 10:35:35 2017
 """
 
 import bpn
-from ImagenPuntos import AbrirImagen
+from ImagenPuntosMPL import AbrirImagen
 import numpy as np
 
 root_path = "D:\\Facultad\\Catedras\\UBA\\Teorías\\04 - BPN\\Python\\"
 
-file_path = root_path + 'Imagen 1.bmp'
+file_path =  'Imagen 1.bmp'
 
 X = AbrirImagen(file_path)
 column_count = 3;

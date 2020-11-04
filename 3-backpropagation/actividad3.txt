@@ -15,10 +15,22 @@ Activa o no el valor
 
 Dimensionalidad Entrada = 0
 1er Oculta = 145
-2da Oculta = 
+2da Oculta = 153
+
+Total pesos = 308
  
-La dimensionalidad del error: Pesos totales+1
-
+b) La dimensionalidad del error: Pesos totales+1
+c) Dimensionalidad de cada capa
+	entrada = 8 variables de entrada
+	oculta1 = 15 variables 
+	oculta2 = 8 variables = dimensiones
+	
 2- Cuanto va a recibir la capa de salida:
+a = 2x2x2
+b = 2x3x2
+c = 3x4x3
 
-Las pelotitas quedan ubicadas sobre ese espacio.
+3- Quedan todos los puntos en las intersecciones.
+5 hiperplanos se cortan en el mismo sector
+
+4- a)dato anomalo

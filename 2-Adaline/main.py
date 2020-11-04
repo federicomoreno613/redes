@@ -11,7 +11,7 @@ from ImagenPuntosMPL import AbrirImagen
 #%%
 root_path = "D:\\DataMining\\Redes Neuronales\\redes\\2-Adaline\\"
 
-file_path = root_path  + "Imagen 1.bmp"
+file_path =  "Imagen 1.bmp"
 
 #%%
 X = AbrirImagen(file_path)
